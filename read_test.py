@@ -1,4 +1,5 @@
 import csv
+from gensim.models import Word2Vec
 
 with open("data/data_origin.DUMP", encoding="utf8") as tsv:
     counter = 0
